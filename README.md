@@ -1,87 +1,99 @@
-Anyware Fullstack Task
+📚 Anyware Fullstack Task
 
-This project is a full-stack application for managing student quizzes and announcements for the current semester. It includes a React + Redux + TypeScript frontend and an Express.js + MongoDB backend, following best practices and clean architecture.
+A full-stack application for managing student quizzes and announcements for the current semester.
+Built with React + Redux + TypeScript for the frontend and Express.js + MongoDB for the backend.
 
-Features:
+✅ Features
 Frontend (React + Redux Toolkit + TypeScript + Vite)
 
-Authentication Simulation:
+Authentication Simulation
 
 Login/Logout without username or password.
 
-Uses a Higher Order Component (HOC) requireAuth to protect routes.
+Protected routes using a Higher Order Component (requireAuth).
 
-Dashboard for Logged-in Users:
+Dashboard for Logged-in Users
 
 Displays Quizzes and Announcements.
 
-Responsive Design:
+Responsive Design
 
-Fits all screen sizes.
+Fits all screen sizes (mobile → desktop).
 
-Material UI for Components.
+Material UI Components
 
-Sidebar Hover Effect:
+Sidebar Hover Effect
 
-Links change background and text color on hover.
+Links change background & text color on hover.
 
-Internationalization (i18n) Support:
+Internationalization (i18n)
 
-Prepared for translations using react-i18next with en and ar locales.
+Prepared for translations using react-i18next (English + Arabic).
 
-Reusable Components:
+Reusable Components
 
 Layout (Sidebar, Topbar) and common UI components.
 
-Unit and Integration Tests with Jest + React Testing Library.
+Tests
+
+Unit & integration tests using Jest + React Testing Library.
 
 Backend (Express.js + TypeScript + MongoDB)
 
-REST API for Quizzes and Announcements:
+REST API for Quizzes and Announcements
 
-CRUD operations for both entities.
+Full CRUD for both entities.
 
-Middleware:
+Middleware
 
-Authentication, Error handling.
+Authentication (simulated), Error handling.
 
-Validation using zod.
+Validation
 
-MongoDB with Mongoose for data persistence.
+Using zod for request validation.
 
-Seeding Script for sample data.
+Database
 
-Tests with Jest + Supertest.
+MongoDB with Mongoose for persistence.
 
+Seeding Script
 
-Tech Stack:
+Populate sample data.
 
-Frontend:
+Tests
 
-React 18, Redux Toolkit, TypeScript
+API tests using Jest + Supertest.
 
-Vite (bundler)
+🛠 Tech Stack
+Frontend
+
+React 18
+
+Redux Toolkit
+
+TypeScript
+
+Vite
 
 Material UI
 
 React Router
 
-i18next (internationalization)
+i18next
 
 Jest + React Testing Library
 
-Backend:
+Backend
 
-Node.js, Express.js (TypeScript)
+Node.js + Express.js (TypeScript)
 
-MongoDB (via Mongoose)
+MongoDB (Mongoose)
 
-zod (validation)
+Zod (validation)
 
-Jest + Supertest (testing)
+Jest + Supertest
 
-
-Project Structure:
+📂 Project Structure
 anyware-fullstack/
 │
 ├── README.md
@@ -153,81 +165,71 @@ anyware-fullstack/
         ├── styles/theme.ts
         └── tests/requireAuth.test.tsx
 
-
-Installation & Setup:
-
+🚀 Installation & Setup
 1. Clone the Repository
-git clone https://github.com/your-username/anyware-fullstack.git
+git clone https://github.com/<your-username>/anyware-fullstack.git
 cd anyware-fullstack
 
-2. Backend Setup (server)
+2. Backend Setup (server/)
 cd server
 npm install
 
 
-Create a .env file in server/:
+Create .env in server/:
 
 PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/anyware
+MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/anyware
 JWT_SECRET=your_jwt_secret
 
 
-Run the server in development mode:
+Run the server in development:
 
 npm run dev
 
-3. Frontend Setup (client)
+3. Frontend Setup (client/)
 cd ../client
 npm install
 npm run dev
 
 4. Run with Docker
-
-Ensure Docker and Docker Compose are installed, then run:
-
 docker-compose up -d
 
-API Endpoints:
+📡 API Endpoints
 Announcements
 
-GET /api/announcements - Get all announcements
+GET /api/announcements → Get all announcements
 
-POST /api/announcements - Create announcement
+POST /api/announcements → Create announcement
 
-PUT /api/announcements/:id - Update announcement
+PUT /api/announcements/:id → Update announcement
 
-DELETE /api/announcements/:id - Delete announcement
+DELETE /api/announcements/:id → Delete announcement
 
 Quizzes
 
-GET /api/quizzes - Get all quizzes
+GET /api/quizzes → Get all quizzes
 
-POST /api/quizzes - Create quiz
+POST /api/quizzes → Create quiz
 
-PUT /api/quizzes/:id - Update quiz
+PUT /api/quizzes/:id → Update quiz
 
-DELETE /api/quizzes/:id - Delete quiz
+DELETE /api/quizzes/:id → Delete quiz
 
-
-Testing:
-
-Backend Tests:
-
+🧪 Testing
+Backend Tests
 cd server
 npm test
 
-
-Frontend Tests:
-
+Frontend Tests
 cd client
 npm test
 
-Notes:
+📌 Notes
 
-Material UI is used for UI components.
+Material UI for UI components.
 
-i18n is prepared for future translations.
+i18n ready with English and Arabic (RTL support).
 
-Authentication is simulated without credentials.
+Authentication is simulated (no credentials required).
 
-All business rules are implemented according to the project spec.
+All business rules implemented per project spec.
