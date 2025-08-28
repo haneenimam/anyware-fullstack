@@ -1,0 +1,52 @@
+{
+  "welcome": "Welcome, {{name}}",
+  "examsTime": "Exams Time",
+  "viewTips": "View exams tips",
+  "announcements": "Announcements",
+  "dashboard": "Dashboard",
+  "whatsDue": "What's due",
+  "startQuiz": "Start Quiz",
+  "solveAssignment": "Solve Assignment",
+  "login": "Log in",
+  "logout": "Log out",
+  "goToDashboard": "Go to Dashboard",
+  "quizzes": "Quizzes",
+  "createQuiz": "Create New Quiz",
+  "loading": "Loading quizzes...",
+  "due": "Due",
+  "viewDetails": "View Details",
+  "noQuizzesAvailable": "No quizzes available.",
+  "common": {
+    "create": "Create",
+    "delete": "Delete"
+  },
+  "examIntro": "Here we are. Are you ready to fight? Don’t worry, we prepared some tips.",
+  "studyTips": "Study Tips",
+  "close": "Close",
+  "tips": {
+    "manageTime": "Manage your time effectively",
+    "reviewNotes": "Review your notes daily",
+    "takeBreaks": "Take short breaks while studying",
+    "practiceQuestions": "Practice previous exam questions",
+    "stayPositive": "Stay positive and confident"
+  },
+  "announcementsSection": {
+    "newAnnouncement": "New Announcement",
+    "allAnnouncements": "All Announcements",
+    "title": "Title",
+    "body": "Body",
+    "author": "Author",
+    "course": "Course",
+    "topic": "Topic",
+    "dueDate": "Due Date"
+  },
+  "dashboardSection": {
+    "noQuizzes": "No upcoming quizzes.",
+    "noAnnouncements": "No announcements."
+  },
+  "home": {
+    "title": "Anyware Student Portal",
+    "subtitle": "Click below to enter as a demo student.",
+    "loginButton": "Login"
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "welcome": "مرحباً، {{name}}",
+    "examsTime": "وقت الامتحانات",
+    "viewTips": "عرض نصائح الامتحان",
+    "announcements": "الإعلانات",
+    "dashboard": "لوحة التحكم",
+    "whatsDue": "المهام المستحقة",
+    "startQuiz": "ابدأ الاختبار",
+    "solveAssignment": "حل الواجب",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "goToDashboard": "الذهاب للوحة التحكم",
+    "quizzes": "الاختبارات",
+    "createQuiz": "إنشاء اختبار جديد",
+    "loading": "جاري تحميل الاختبارات...",
+    "due": "تاريخ الاستحقاق",
+    "viewDetails": "عرض التفاصيل",
+    "noQuizzesAvailable": "لا توجد اختبارات متاحة.",
+      "common": {
+    "create": "إنشاء",
+    "delete": "حذف"
+  },
+  "examIntro": "ها نحن ذا. هل أنت مستعد للمواجهة؟ لا تقلق، لقد أعددنا بعض النصائح.",
+  "studyTips": "نصائح للدراسة",
+  "close": "إغلاق",
+  "tips": {
+    "manageTime": "إدارة الوقت بشكل فعال",
+    "reviewNotes": "مراجعة الملاحظات يوميًا",
+    "takeBreaks": "أخذ فترات راحة قصيرة أثناء الدراسة",
+    "practiceQuestions": "ممارسة أسئلة الامتحانات السابقة",
+    "stayPositive": "البقاء إيجابيًا وواثقًا"
+  },
+  "announcementsSection": {
+    "newAnnouncement": "إعلان جديد",
+    "allAnnouncements": "جميع الإعلانات",
+    "title": "العنوان",
+    "body": "المحتوى",
+    "author": "المؤلف",
+    "course": "المقرر",
+    "topic": "الموضوع",
+    "dueDate": "تاريخ الاستحقاق"
+  },
+  "dashboardSection": {
+    "noQuizzes": "لا توجد اختبارات قادمة.",
+    "noAnnouncements": "لا توجد إعلانات."
+  },
+   "home": {
+    "title": "بوابة الطلاب",
+    "subtitle": "اضغط أدناه للدخول كطالب تجريبي.",
+    "loginButton": "تسجيل الدخول"
+  }
+}
+
+
+  
