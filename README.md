@@ -93,7 +93,8 @@ Zod (validation)
 
 Jest + Supertest
 
-📂 Project Structure
+## 📂 Project Structure
+
 anyware-fullstack/
 │
 ├── README.md
