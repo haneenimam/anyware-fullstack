@@ -3,7 +3,7 @@
 A full-stack application for managing student quizzes and announcements for the current semester.
 Built with React + Redux + TypeScript for the frontend and Express.js + MongoDB for the backend.
 
-✅ Features
+## ✅ Features
 Frontend (React + Redux Toolkit + TypeScript + Vite)
 
 Authentication Simulation
@@ -64,7 +64,7 @@ Tests
 
 API tests using Jest + Supertest.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Frontend
 
 React 18
@@ -166,7 +166,7 @@ anyware-fullstack/
         ├── styles/theme.ts
         └── tests/requireAuth.test.tsx
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 1. Clone the Repository
 git clone https://github.com/<your-username>/anyware-fullstack.git
 cd anyware-fullstack
@@ -195,7 +195,7 @@ npm run dev
 4. Run with Docker
 docker-compose up -d
 
-📡 API Endpoints
+## 📡 API Endpoints
 Announcements
 
 GET /api/announcements → Get all announcements
@@ -216,7 +216,7 @@ PUT /api/quizzes/:id → Update quiz
 
 DELETE /api/quizzes/:id → Delete quiz
 
-🧪 Testing
+## Testing
 Backend Tests
 cd server
 npm test
@@ -225,7 +225,7 @@ Frontend Tests
 cd client
 npm test
 
-📌 Notes
+## 📌 Notes
 
 Material UI for UI components.
 
