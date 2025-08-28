@@ -1,4 +1,4 @@
-📚 Anyware Fullstack Task
+## Anyware Fullstack Task
 
 A full-stack application for managing student quizzes and announcements for the current semester.
 Built with React + Redux + TypeScript for the frontend and Express.js + MongoDB for the backend.
