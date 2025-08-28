@@ -64,6 +64,10 @@ Tests
 
 API tests using Jest + Supertest.
 
+## 📸 Preview
+
+![Dashboard Screenshot](dashboard.png)
+
 ## 🛠 Tech Stack
 Frontend
 
@@ -94,7 +98,7 @@ Zod (validation)
 Jest + Supertest
 
 ## 📂 Project Structure
-
+```
 anyware-fullstack/
 │
 ├── README.md
@@ -165,6 +169,7 @@ anyware-fullstack/
         │   └── QuizzesPage.tsx
         ├── styles/theme.ts
         └── tests/requireAuth.test.tsx
+```
 
 ## 🚀 Installation & Setup
 1. Clone the Repository
@@ -195,26 +200,29 @@ npm run dev
 4. Run with Docker
 docker-compose up -d
 
+## Environment Variables
+
+Create `.env` in `server/`:
+
+```env
+PORT=5000
+MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/anyware
+JWT_SECRET=your_jwt_secret
+
+
 ## 📡 API Endpoints
-Announcements
 
-GET /api/announcements → Get all announcements
+| Method | Endpoint                | Description               |
+|--------|--------------------------|---------------------------|
+| GET    | `/api/announcements`    | Get all announcements    |
+| POST   | `/api/announcements`    | Create announcement      |
+| PUT    | `/api/announcements/:id`| Update announcement      |
+| DELETE | `/api/announcements/:id`| Delete announcement      |
+| GET    | `/api/quizzes`          | Get all quizzes          |
+| POST   | `/api/quizzes`          | Create quiz              |
+| PUT    | `/api/quizzes/:id`      | Update quiz              |
+| DELETE | `/api/quizzes/:id`      | Delete quiz              |
 
-POST /api/announcements → Create announcement
-
-PUT /api/announcements/:id → Update announcement
-
-DELETE /api/announcements/:id → Delete announcement
-
-Quizzes
-
-GET /api/quizzes → Get all quizzes
-
-POST /api/quizzes → Create quiz
-
-PUT /api/quizzes/:id → Update quiz
-
-DELETE /api/quizzes/:id → Delete quiz
 
 ## Testing
 Backend Tests
@@ -224,6 +232,10 @@ npm test
 Frontend Tests
 cd client
 npm test
+
+## ⏱ Time Spent
+~11 hours total (frontend: 8h, backend: 3h)
+
 
 ## 📌 Notes
 
