@@ -208,7 +208,7 @@ Create `.env` in `server/`:
 PORT=5000
 MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/anyware
 JWT_SECRET=your_jwt_secret
-
+```
 
 ## 📡 API Endpoints
 
